@@ -11,7 +11,7 @@ import SwiftUI
 struct TypingAnimationSwiftUIApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+			LoopingTextExampleView()
         }
     }
 }

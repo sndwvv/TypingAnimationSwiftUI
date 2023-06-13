@@ -8,18 +8,34 @@
 
 /* Begin PBXBuildFile section */
 		1EA941E72A3845030034E938 /* TypingAnimationSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA941E62A3845030034E938 /* TypingAnimationSwiftUIApp.swift */; };
-		1EA941E92A3845030034E938 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA941E82A3845030034E938 /* ContentView.swift */; };
+		1EA941E92A3845030034E938 /* LoopingTextExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA941E82A3845030034E938 /* LoopingTextExampleView.swift */; };
 		1EA941EB2A3845030034E938 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EA941EA2A3845030034E938 /* Assets.xcassets */; };
 		1EA941EF2A3845030034E938 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EA941EE2A3845030034E938 /* Preview Assets.xcassets */; };
+		1EA941F62A3845340034E938 /* TypingTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA941F52A3845340034E938 /* TypingTextView.swift */; };
+		1EA941FA2A3847B50034E938 /* AnyViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA941F92A3847B50034E938 /* AnyViewModifier.swift */; };
+		1EA941FE2A3847F20034E938 /* EmptyModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA941FD2A3847F20034E938 /* EmptyModifier.swift */; };
+		1EA942002A3848620034E938 /* LoginTypingTextStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA941FF2A3848620034E938 /* LoginTypingTextStyle.swift */; };
+		1EA942022A3848870034E938 /* TypingTextStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA942012A3848870034E938 /* TypingTextStyle.swift */; };
+		1EA942042A3848C20034E938 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA942032A3848C20034E938 /* Constants.swift */; };
+		1EA942062A3851E20034E938 /* StaticTextExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA942052A3851E20034E938 /* StaticTextExampleView.swift */; };
+		1EA942082A385BDF0034E938 /* TypingTextSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA942072A385BDF0034E938 /* TypingTextSettings.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1EA941E32A3845030034E938 /* TypingAnimationSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TypingAnimationSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EA941E62A3845030034E938 /* TypingAnimationSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypingAnimationSwiftUIApp.swift; sourceTree = "<group>"; };
-		1EA941E82A3845030034E938 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1EA941E82A3845030034E938 /* LoopingTextExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoopingTextExampleView.swift; sourceTree = "<group>"; };
 		1EA941EA2A3845030034E938 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1EA941EC2A3845030034E938 /* TypingAnimationSwiftUI.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TypingAnimationSwiftUI.entitlements; sourceTree = "<group>"; };
 		1EA941EE2A3845030034E938 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1EA941F52A3845340034E938 /* TypingTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypingTextView.swift; sourceTree = "<group>"; };
+		1EA941F92A3847B50034E938 /* AnyViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyViewModifier.swift; sourceTree = "<group>"; };
+		1EA941FD2A3847F20034E938 /* EmptyModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyModifier.swift; sourceTree = "<group>"; };
+		1EA941FF2A3848620034E938 /* LoginTypingTextStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginTypingTextStyle.swift; sourceTree = "<group>"; };
+		1EA942012A3848870034E938 /* TypingTextStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypingTextStyle.swift; sourceTree = "<group>"; };
+		1EA942032A3848C20034E938 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		1EA942052A3851E20034E938 /* StaticTextExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticTextExampleView.swift; sourceTree = "<group>"; };
+		1EA942072A385BDF0034E938 /* TypingTextSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypingTextSettings.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +69,10 @@
 			isa = PBXGroup;
 			children = (
 				1EA941E62A3845030034E938 /* TypingAnimationSwiftUIApp.swift */,
-				1EA941E82A3845030034E938 /* ContentView.swift */,
+				1EA941F52A3845340034E938 /* TypingTextView.swift */,
+				1EA941E82A3845030034E938 /* LoopingTextExampleView.swift */,
+				1EA942052A3851E20034E938 /* StaticTextExampleView.swift */,
+				1EA941F82A3847A60034E938 /* Utils */,
 				1EA941EA2A3845030034E938 /* Assets.xcassets */,
 				1EA941EC2A3845030034E938 /* TypingAnimationSwiftUI.entitlements */,
 				1EA941ED2A3845030034E938 /* Preview Content */,
@@ -67,6 +86,19 @@
 				1EA941EE2A3845030034E938 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1EA941F82A3847A60034E938 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				1EA942012A3848870034E938 /* TypingTextStyle.swift */,
+				1EA942072A385BDF0034E938 /* TypingTextSettings.swift */,
+				1EA941F92A3847B50034E938 /* AnyViewModifier.swift */,
+				1EA941FD2A3847F20034E938 /* EmptyModifier.swift */,
+				1EA941FF2A3848620034E938 /* LoginTypingTextStyle.swift */,
+				1EA942032A3848C20034E938 /* Constants.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,8 +171,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1EA941E92A3845030034E938 /* ContentView.swift in Sources */,
+				1EA941E92A3845030034E938 /* LoopingTextExampleView.swift in Sources */,
+				1EA942002A3848620034E938 /* LoginTypingTextStyle.swift in Sources */,
+				1EA941F62A3845340034E938 /* TypingTextView.swift in Sources */,
+				1EA942022A3848870034E938 /* TypingTextStyle.swift in Sources */,
+				1EA941FE2A3847F20034E938 /* EmptyModifier.swift in Sources */,
+				1EA941FA2A3847B50034E938 /* AnyViewModifier.swift in Sources */,
+				1EA942082A385BDF0034E938 /* TypingTextSettings.swift in Sources */,
 				1EA941E72A3845030034E938 /* TypingAnimationSwiftUIApp.swift in Sources */,
+				1EA942042A3848C20034E938 /* Constants.swift in Sources */,
+				1EA942062A3851E20034E938 /* StaticTextExampleView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,7 +319,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.2;
@@ -287,7 +327,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = co.songpark.TypingAnimationSwiftUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -317,7 +359,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.2;
@@ -325,7 +367,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = co.songpark.TypingAnimationSwiftUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
