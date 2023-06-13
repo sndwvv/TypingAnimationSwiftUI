@@ -14,7 +14,7 @@
 		1EA941F62A3845340034E938 /* TypingTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA941F52A3845340034E938 /* TypingTextView.swift */; };
 		1EA941FA2A3847B50034E938 /* AnyViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA941F92A3847B50034E938 /* AnyViewModifier.swift */; };
 		1EA941FE2A3847F20034E938 /* EmptyModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA941FD2A3847F20034E938 /* EmptyModifier.swift */; };
-		1EA942002A3848620034E938 /* LoginTypingTextStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA941FF2A3848620034E938 /* LoginTypingTextStyle.swift */; };
+		1EA942002A3848620034E938 /* MediumTypingTextStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA941FF2A3848620034E938 /* MediumTypingTextStyle.swift */; };
 		1EA942022A3848870034E938 /* TypingTextStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA942012A3848870034E938 /* TypingTextStyle.swift */; };
 		1EA942042A3848C20034E938 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA942032A3848C20034E938 /* Constants.swift */; };
 		1EA942062A3851E20034E938 /* StaticTextExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA942052A3851E20034E938 /* StaticTextExampleView.swift */; };
@@ -31,7 +31,7 @@
 		1EA941F52A3845340034E938 /* TypingTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypingTextView.swift; sourceTree = "<group>"; };
 		1EA941F92A3847B50034E938 /* AnyViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyViewModifier.swift; sourceTree = "<group>"; };
 		1EA941FD2A3847F20034E938 /* EmptyModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyModifier.swift; sourceTree = "<group>"; };
-		1EA941FF2A3848620034E938 /* LoginTypingTextStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginTypingTextStyle.swift; sourceTree = "<group>"; };
+		1EA941FF2A3848620034E938 /* MediumTypingTextStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediumTypingTextStyle.swift; sourceTree = "<group>"; };
 		1EA942012A3848870034E938 /* TypingTextStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypingTextStyle.swift; sourceTree = "<group>"; };
 		1EA942032A3848C20034E938 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		1EA942052A3851E20034E938 /* StaticTextExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticTextExampleView.swift; sourceTree = "<group>"; };
@@ -95,7 +95,7 @@
 				1EA942072A385BDF0034E938 /* TypingTextSettings.swift */,
 				1EA941F92A3847B50034E938 /* AnyViewModifier.swift */,
 				1EA941FD2A3847F20034E938 /* EmptyModifier.swift */,
-				1EA941FF2A3848620034E938 /* LoginTypingTextStyle.swift */,
+				1EA941FF2A3848620034E938 /* MediumTypingTextStyle.swift */,
 				1EA942032A3848C20034E938 /* Constants.swift */,
 			);
 			path = Utils;
@@ -172,7 +172,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1EA941E92A3845030034E938 /* LoopingTextExampleView.swift in Sources */,
-				1EA942002A3848620034E938 /* LoginTypingTextStyle.swift in Sources */,
+				1EA942002A3848620034E938 /* MediumTypingTextStyle.swift in Sources */,
 				1EA941F62A3845340034E938 /* TypingTextView.swift in Sources */,
 				1EA942022A3848870034E938 /* TypingTextStyle.swift in Sources */,
 				1EA941FE2A3847F20034E938 /* EmptyModifier.swift in Sources */,

@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct LoginTypingTextStyle: ViewModifier {
+struct MediumTypingTextStyle: ViewModifier {
 	func body(content: Content) -> some View {
 		content
 			.font(.system(size: 20, weight: .bold))

@@ -10,11 +10,12 @@ import SwiftUI
 enum TypingTextStyle {
 	case plain
 	case medium
+	// add more
 
 	func modifier() -> some ViewModifier {
 		switch self {
 		case .medium:
-			return AnyViewModifier(LoginTypingTextStyle())
+			return AnyViewModifier(MediumTypingTextStyle())
 		default:
 			return AnyViewModifier(EmptyModifier())
 		}

@@ -9,7 +9,7 @@ import SwiftUI
 
 struct StaticTextExampleView: View {
 	
-	let fullText: String = Constants.quotes.first ?? "Hello, World!"
+	let fullText = "Hello, World!"
 	let settings = TypingTextSettings(
 		typingSpeed: 0.04,
 		backspaceSpeed: 0.01,
