@@ -7,7 +7,7 @@ https://github.com/sndwvv/TypingAnimationSwiftUI/assets/108448821/0ff4501c-e8cc-
 
 ## Implementation
 
-Simply inialize the TypingTextView with a text string:
+Simply initialize the TypingTextView with a text string:
 ```swift
 TypingTextView(text: "Hello, World!")
 ```
@@ -109,5 +109,6 @@ enum TypingTextStyle {
     }
 }
 ```
-
+## Upcoming
+* macOS compatibitlity
 
