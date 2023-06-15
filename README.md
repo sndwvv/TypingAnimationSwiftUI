@@ -1,9 +1,8 @@
 # TypingAnimationSwiftUI
-
-Add a typewriter style of animation to a SwiftUI Text
+Add a typewriter style of animation to a SwiftUI Text, with customizable settings (typing speed, backspacing, haptic feedback).
 
 ## Preview
-https://github.com/sndwvv/TypingAnimationSwiftUI/assets/108448821/0ff4501c-e8cc-419e-a3ec-97749525628e
+https://github.com/sndwvv/TypingAnimationSwiftUI/assets/108448821/1281e058-eb13-4744-901a-f5078490f1a2
 
 ## Implementation
 
@@ -50,7 +49,7 @@ var body: some View {
 | isBackspaceEnabled | If true, text is fully typed then backspaced / removed |
 | isHapticsEnabled | Adds a haptic feedback every time a character is added or removed |
 
-Pass an array of texts and have it loop continuously (as shown on preview).
+Pass an array of texts and have it loop continuously (refer to LoopingTextExample.swift)
 
 ```swift
 struct LoopingTextExampleView: View {
