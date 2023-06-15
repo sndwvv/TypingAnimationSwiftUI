@@ -1,8 +1,10 @@
 # TypingAnimationSwiftUI
 Add a typewriter style of animation to a SwiftUI Text, with customizable settings (typing speed, backspacing, haptic feedback).
 
-## Preview
+## Previews
 https://github.com/sndwvv/TypingAnimationSwiftUI/assets/108448821/1281e058-eb13-4744-901a-f5078490f1a2
+
+https://github.com/sndwvv/TypingAnimationSwiftUI/assets/108448821/82088ac6-cd0b-45f5-a9ae-809fdab4e2f3
 
 ## Implementation
 
