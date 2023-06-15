@@ -71,11 +71,10 @@
 			isa = PBXGroup;
 			children = (
 				1EA941E62A3845030034E938 /* TypingAnimationSwiftUIApp.swift */,
-				1EA941F52A3845340034E938 /* TypingTextView.swift */,
 				1EA942052A3851E20034E938 /* StaticTextExampleView.swift */,
 				1EA941E82A3845030034E938 /* LoopingTextExampleView.swift */,
 				1EA942092A3AE8360034E938 /* OnboardingExampleView.swift */,
-				1EA941F82A3847A60034E938 /* Utils */,
+				1EA941F82A3847A60034E938 /* TypingTextUI */,
 				1EA941EA2A3845030034E938 /* Assets.xcassets */,
 				1EA941EC2A3845030034E938 /* TypingAnimationSwiftUI.entitlements */,
 				1EA941ED2A3845030034E938 /* Preview Content */,
@@ -91,9 +90,10 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		1EA941F82A3847A60034E938 /* Utils */ = {
+		1EA941F82A3847A60034E938 /* TypingTextUI */ = {
 			isa = PBXGroup;
 			children = (
+				1EA941F52A3845340034E938 /* TypingTextView.swift */,
 				1EA942012A3848870034E938 /* TypingTextStyle.swift */,
 				1EA942072A385BDF0034E938 /* TypingTextSettings.swift */,
 				1EA941F92A3847B50034E938 /* AnyViewModifier.swift */,
@@ -101,7 +101,7 @@
 				1EA941FF2A3848620034E938 /* MediumTypingTextStyle.swift */,
 				1EA942032A3848C20034E938 /* Constants.swift */,
 			);
-			path = Utils;
+			path = TypingTextUI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
