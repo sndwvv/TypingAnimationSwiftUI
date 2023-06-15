@@ -19,6 +19,7 @@
 		1EA942042A3848C20034E938 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA942032A3848C20034E938 /* Constants.swift */; };
 		1EA942062A3851E20034E938 /* StaticTextExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA942052A3851E20034E938 /* StaticTextExampleView.swift */; };
 		1EA942082A385BDF0034E938 /* TypingTextSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA942072A385BDF0034E938 /* TypingTextSettings.swift */; };
+		1EA9420A2A3AE8360034E938 /* OnboardingExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA942092A3AE8360034E938 /* OnboardingExampleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		1EA942032A3848C20034E938 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		1EA942052A3851E20034E938 /* StaticTextExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticTextExampleView.swift; sourceTree = "<group>"; };
 		1EA942072A385BDF0034E938 /* TypingTextSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypingTextSettings.swift; sourceTree = "<group>"; };
+		1EA942092A3AE8360034E938 /* OnboardingExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingExampleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,8 +72,9 @@
 			children = (
 				1EA941E62A3845030034E938 /* TypingAnimationSwiftUIApp.swift */,
 				1EA941F52A3845340034E938 /* TypingTextView.swift */,
-				1EA941E82A3845030034E938 /* LoopingTextExampleView.swift */,
 				1EA942052A3851E20034E938 /* StaticTextExampleView.swift */,
+				1EA941E82A3845030034E938 /* LoopingTextExampleView.swift */,
+				1EA942092A3AE8360034E938 /* OnboardingExampleView.swift */,
 				1EA941F82A3847A60034E938 /* Utils */,
 				1EA941EA2A3845030034E938 /* Assets.xcassets */,
 				1EA941EC2A3845030034E938 /* TypingAnimationSwiftUI.entitlements */,
@@ -173,6 +176,7 @@
 			files = (
 				1EA941E92A3845030034E938 /* LoopingTextExampleView.swift in Sources */,
 				1EA942002A3848620034E938 /* MediumTypingTextStyle.swift in Sources */,
+				1EA9420A2A3AE8360034E938 /* OnboardingExampleView.swift in Sources */,
 				1EA941F62A3845340034E938 /* TypingTextView.swift in Sources */,
 				1EA942022A3848870034E938 /* TypingTextStyle.swift in Sources */,
 				1EA941FE2A3847F20034E938 /* EmptyModifier.swift in Sources */,
