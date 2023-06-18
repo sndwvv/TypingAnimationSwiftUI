@@ -35,10 +35,12 @@ struct OnboardingExampleView: View {
 		let settings = TypingTextSettings(
 			typingSpeed: 0.05,
 			style: .medium,
-			isHapticsEnabled: true)
-		
-		return TypingTextView(text: greetingText,
-					   settings: settings) {
+			isHapticsEnabled: true
+		)
+		return TypingTextView(
+			text: greetingText,
+			settings: settings
+		) {
 			withAnimation(.easeInOut) {
 				showNamePromptText = true
 			}
@@ -50,10 +52,12 @@ struct OnboardingExampleView: View {
 		let settings = TypingTextSettings(
 			typingSpeed: 0.05,
 			style: .medium,
-			isHapticsEnabled: true)
-		
-		return TypingTextView(text: promptText,
-					   settings: settings) {
+			isHapticsEnabled: true
+		)
+		return TypingTextView(
+			text: promptText,
+			settings: settings
+		) {
 			withAnimation(.easeInOut) {
 				showNameTextField = true
 			}
@@ -61,15 +65,18 @@ struct OnboardingExampleView: View {
 	}
 	
 	var nameTextField: some View {
-		return OnboardingTextField(becomeFirstResponder: $becomeFirstResponder)
-			.multilineTextAlignment(.center)
-			.frame(height: 50)
-			.padding(.horizontal, 50)
-			.onAppear {
-				withAnimation(.easeInOut) {
-					becomeFirstResponder = true
-				}
+		return OnboardingTextField(
+			text: $name,
+			becomeFirstResponder: $becomeFirstResponder
+		)
+		.multilineTextAlignment(.center)
+		.frame(height: 50)
+		.padding(.horizontal, 50)
+		.onAppear {
+			withAnimation(.easeInOut) {
+				becomeFirstResponder = true
 			}
+		}
 	}
 }
 
@@ -84,6 +91,7 @@ struct OnboardingExampleView_Previews: PreviewProvider {
 struct OnboardingTextField: UIViewRepresentable {
 	typealias UIViewType = UITextField
 
+	@Binding var text: String
 	@Binding var becomeFirstResponder: Bool
 
 	func makeUIView(context: Context) -> UITextField {
